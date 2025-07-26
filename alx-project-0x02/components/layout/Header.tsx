@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
 
-const Header:React.FC = ()=>{
-return(
-    <div></div>
-)
+export default function Header() {
+  return (
+    <div>
+      <a href="/home">Home</a>
+      <a href="/about">About</a>
+    </div>
+  );
 }
-
-export  default Header;
