@@ -1,3 +1,4 @@
-interface CardProps {
-    name:string;
+export interface CardProps {
+    title:string;
+    content:string;
 }
